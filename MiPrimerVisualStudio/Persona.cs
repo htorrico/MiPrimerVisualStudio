@@ -13,6 +13,22 @@ namespace MiPrimerVisualStudio
         public string Apellido { get; set; }
         public int Edad { get; set; }
 
+        public string NombresCompletos { get; set; }
+
+        //Procedimiento: Ejecuta sentencias
+        public void AsignarNombresCompletos()
+        {
+            NombresCompletos = Nombre + " " + Apellido;
+        }
+
+        //Función: Retorna un valor
+        public string DevolverNombresCompletos()
+        {
+            string nombreCompleto;
+            nombreCompleto = Nombre + " " + Apellido;
+            return nombreCompleto;
+        }
+
 
        
         //1. Escribir la palabra prop

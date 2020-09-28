@@ -51,7 +51,19 @@ namespace MiPrimerVisualStudio
 
             foreach (var item in personas)
             {
+                //Primera forma
                 Console.WriteLine(item.Nombre + " "+ item.Apellido);
+                //Segunda forma: funciones
+                Console.WriteLine(item.DevolverNombresCompletos());
+
+                //Tercera forma: Procedimientos
+                item.AsignarNombresCompletos();
+                Console.WriteLine(item.NombresCompletos);
+
+
+
+
+
             }
 
 
