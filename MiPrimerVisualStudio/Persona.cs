@@ -18,6 +18,7 @@ namespace MiPrimerVisualStudio
         //Procedimiento: Ejecuta sentencias
         public void AsignarNombresCompletos()
         {
+            
             NombresCompletos = Nombre + " " + Apellido;
         }
 

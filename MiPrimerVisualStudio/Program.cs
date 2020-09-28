@@ -10,16 +10,21 @@ namespace MiPrimerVisualStudio
     {
         static void Main(string[] args)
         {
+            /*
+            Rectangulo rectangulo = new Rectangulo();
+            rectangulo.x1 = 0;
+            rectangulo.y1 = 0;         
+
             //Declaración de datos
             string nombre = "Hugo";
             string apellido;
             //Asignar variables
             apellido = "Torrico";
 
-            /*
-            Console.WriteLine(nombre);
-            Console.WriteLine(apellido);
-            */
+            
+            //Console.WriteLine(nombre);
+            //Console.WriteLine(apellido);
+            
 
             //Instanciar los objetos
             
@@ -65,7 +70,7 @@ namespace MiPrimerVisualStudio
 
 
             }
-
+            */
 
      
 
